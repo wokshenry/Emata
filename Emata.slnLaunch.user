@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Web&API",
+    "Projects": [
+      {
+        "Path": "Emata.API\\Emata.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Emata.UI\\Emata.UI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

@@ -1,0 +1,88 @@
+﻿@* <h3>ResultPage</h3> *@
+@page "/result/{SessionId:guid}"
+@using Emata.Shared.ViewModels
+@using Emata.UI.Services
+@inject ISessionService TestService
+@inject NavigationManager NavigationManager
+
+<div class="container mt-5">
+    @if (_loading)
+    {
+        <div class="text-center">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p>Loading results...</p>
+        </div>
+    }
+    else if (_result != null)
+    {
+        <div class="card">
+            <div class="card-header bg-primary text-white">
+                <h2 class="mb-0">Test Results</h2>
+            </div>
+            <div class="card-body">
+                <div class="row mb-4">
+                    <div class="col-md-12">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h3 class="card-title">Score</h3>
+                                <h1 class="display-1">@_result.Score.ToString("0.0")%</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Questions</h5>
+                                <p class="display-4">@_result.CorrectAnswers / @_result.TotalQuestions</p>
+                                <p class="text-muted">Answered Correctly</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card text-center">
+                            <div class="card-body">
+                                <h5 class="card-title">Time</h5>
+                                <p class="display-4">@_result.TimeTaken.ToString(@"hh\:mm\:ss")</p>
+                                <p class="text-muted">Time Spent</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button class="btn btn-primary btn-lg" @onclick="TakeAnotherTest">Take Another Test</button>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            <h4>Error</h4>
+            <p>Could not load test results. The test session may have expired.</p>
+            <button class="btn btn-primary" @onclick="TakeAnotherTest">Take a New Test</button>
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public Guid SessionId { get; set; }
+
+    private bool _loading = true;
+    private TestResultDTO? _result;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Try to get results for the session
+        _result = await TestService.FinishTestAsync(SessionId);
+        _loading = false;
+    }
+
+    private void TakeAnotherTest()
+    {
+        NavigationManager.NavigateTo("/");
+    }
+}

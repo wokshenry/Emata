@@ -1,0 +1,11 @@
+D:\system\core\Emata\Emata.SHARED\bin\Debug\net9.0\Emata.SHARED.deps.json
+D:\system\core\Emata\Emata.SHARED\bin\Debug\net9.0\Emata.SHARED.dll
+D:\system\core\Emata\Emata.SHARED\bin\Debug\net9.0\Emata.SHARED.pdb
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.SHARED.GeneratedMSBuildEditorConfig.editorconfig
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.SHARED.AssemblyInfoInputs.cache
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.SHARED.AssemblyInfo.cs
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.SHARED.csproj.CoreCompileInputs.cache
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.SHARED.dll
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\refint\Emata.SHARED.dll
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.SHARED.pdb
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\ref\Emata.SHARED.dll

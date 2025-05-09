@@ -1,0 +1,282 @@
+2025-05-09 15:19:49 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:19:49 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 15:19:49 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 15:19:49 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 15:19:49 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 15:19:49 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 15:19:49 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 15:19:51 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 15:19:51 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 210.5482ms
+2025-05-09 15:19:51 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 15:19:51 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 87.4986ms
+2025-05-09 15:19:51 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:19:51 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 41.5496ms
+2025-05-09 15:19:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 15:19:53 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 525.6775ms
+2025-05-09 15:20:08 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 15:20:08 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:20:09 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 15:20:11 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 15:20:13 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY q."Id"
+2025-05-09 15:20:14 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (41ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 15:20:14 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 3eadd4b2-b95b-4246-aa30-ecc67c2d85c6
+2025-05-09 15:20:14 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 3eadd4b2-b95b-4246-aa30-ecc67c2d85c6
+2025-05-09 15:20:14 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:20:14 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 15:20:14 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 15:20:14 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 5373.4789ms
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 6.5968ms
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 15:20:23 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 3eadd4b2-b95b-4246-aa30-ecc67c2d85c6, question cce917bd-c030-4281-9538-7bd8a88440e5: 2
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (21ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 15:20:23 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 3eadd4b2-b95b-4246-aa30-ecc67c2d85c6, question cce917bd-c030-4281-9538-7bd8a88440e5: 2
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 15:20:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 347.7489ms
+2025-05-09 15:20:26 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-active-session - null null
+2025-05-09 15:20:26 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:20:26 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:20:28 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:22:21 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:22:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 15:22:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 15:22:22 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 15:22:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 15:22:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 15:22:23 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 15:22:26 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 15:22:26 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 371.077ms
+2025-05-09 15:22:26 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 15:22:26 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 85.4096ms
+2025-05-09 15:22:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:22:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 20.6938ms
+2025-05-09 15:22:38 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 15:22:38 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 202.7352ms
+2025-05-09 15:22:53 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-active-session - null null
+2025-05-09 15:22:53 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:22:53 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:22:55 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 15:22:58 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:24:25 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:24:26 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 15:24:26 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 15:24:26 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 15:24:26 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 15:24:26 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 15:24:26 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 15:24:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 15:24:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 81.4057ms
+2025-05-09 15:24:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 15:24:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 44.4449ms
+2025-05-09 15:24:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:24:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 27.4055ms
+2025-05-09 15:24:28 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 15:24:28 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 632.6738ms
+2025-05-09 15:24:40 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-active-session - null null
+2025-05-09 15:24:40 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:24:40 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:24:43 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 15:24:47 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:27:41 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:27:41 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 15:27:41 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 15:27:41 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 15:27:42 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 15:27:42 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 15:27:42 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 15:27:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 15:27:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 198.4432ms
+2025-05-09 15:27:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 15:27:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 80.0409ms
+2025-05-09 15:27:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:27:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 67.7672ms
+2025-05-09 15:27:44 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 15:27:44 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 347.1029ms
+2025-05-09 15:27:57 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-active-session - null null
+2025-05-09 15:27:57 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:27:57 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:28:00 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 15:28:03 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:33:22 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:33:23 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 15:33:23 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 15:33:23 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 15:33:23 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 15:33:23 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 15:33:23 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 15:33:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 15:33:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 87.8241ms
+2025-05-09 15:33:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 15:33:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 23.9759ms
+2025-05-09 15:33:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:33:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 22.5809ms
+2025-05-09 15:33:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 15:33:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 209.2556ms
+2025-05-09 15:33:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-active-session - null null
+2025-05-09 15:33:43 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:33:43 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:33:45 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 15:33:47 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (65ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+FROM "TestSessions" AS t
+WHERE NOT (t."IsCompleted")
+2025-05-09 15:33:48 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:33:48 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'List`1' as Json.
+2025-05-09 15:33:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:33:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/api/Session/get-active-session - 200 null application/json; charset=utf-8 5089.4757ms
+2025-05-09 15:35:19 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 15:35:19 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 3.5649ms
+2025-05-09 15:35:19 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:35:19 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 1.4638ms
+2025-05-09 15:35:19 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 15:35:19 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 2.9473ms
+2025-05-09 15:39:57 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 15:39:58 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 15:39:58 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 15:39:58 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 15:39:58 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 15:39:58 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 15:39:58 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 15:39:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 15:39:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 97.8037ms
+2025-05-09 15:39:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 15:39:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 25.5003ms
+2025-05-09 15:39:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 15:39:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 15.5023ms
+2025-05-09 15:40:00 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 15:40:00 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 260.4901ms
+2025-05-09 15:40:10 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-active-session - null null
+2025-05-09 15:40:10 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:40:10 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:40:11 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 15:40:13 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (54ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+FROM "TestSessions" AS t
+WHERE NOT (t."IsCompleted")
+2025-05-09 15:40:13 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:40:13 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'List`1' as Json.
+2025-05-09 15:40:13 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:40:13 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/api/Session/get-active-session - 200 null application/json; charset=utf-8 3769.3898ms
+2025-05-09 15:40:18 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-session/3eadd4b2-b95b-4246-aa30-ecc67c2d85c6 - null null
+2025-05-09 15:40:18 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:40:18 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-session/{sessionId}'
+2025-05-09 15:40:18 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (82ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 15:40:18 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:40:18 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 15:40:18 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-session/{sessionId}'
+2025-05-09 15:40:18 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/api/Session/get-session/3eadd4b2-b95b-4246-aa30-ecc67c2d85c6 - 200 null application/json; charset=utf-8 392.7776ms
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 2.4907ms
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 15:40:33 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 3eadd4b2-b95b-4246-aa30-ecc67c2d85c6, question 3a049314-b09a-411d-ba3d-b71a989444d6: 2
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (13ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 15:40:33 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 3eadd4b2-b95b-4246-aa30-ecc67c2d85c6, question 3a049314-b09a-411d-ba3d-b71a989444d6: 2
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 15:40:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 167.0032ms
+2025-05-09 15:40:42 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-active-session - null null
+2025-05-09 15:40:42 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:40:42 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:40:42 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+FROM "TestSessions" AS t
+WHERE NOT (t."IsCompleted")
+2025-05-09 15:40:42 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:40:42 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'List`1' as Json.
+2025-05-09 15:40:42 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:40:42 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/api/Session/get-active-session - 200 null application/json; charset=utf-8 19.0804ms
+2025-05-09 15:40:44 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-session/3eadd4b2-b95b-4246-aa30-ecc67c2d85c6 - null null
+2025-05-09 15:40:44 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:40:44 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-session/{sessionId}'
+2025-05-09 15:40:44 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (6ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 15:40:44 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:40:44 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 15:40:44 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-session/{sessionId}'
+2025-05-09 15:40:44 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/api/Session/get-session/3eadd4b2-b95b-4246-aa30-ecc67c2d85c6 - 200 null application/json; charset=utf-8 24.6493ms
+2025-05-09 15:40:57 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/get-active-session - null null
+2025-05-09 15:40:57 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 15:40:57 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:40:57 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+FROM "TestSessions" AS t
+WHERE NOT (t."IsCompleted")
+2025-05-09 15:40:57 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 15:40:57 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'List`1' as Json.
+2025-05-09 15:40:57 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: GET /api/session/get-active-session'
+2025-05-09 15:40:57 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/api/Session/get-active-session - 200 null application/json; charset=utf-8 6.7727ms

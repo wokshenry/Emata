@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emata.API", "Emata.API\Emata.API.csproj", "{2B51F38C-8A31-4A2E-8608-729723D3FF32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emata.UI", "Emata.UI\Emata.UI.csproj", "{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emata.Shared", "Emata.SHARED\Emata.Shared.csproj", "{F953658A-3A6E-4D96-A516-77129429EFB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B51F38C-8A31-4A2E-8608-729723D3FF32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B51F38C-8A31-4A2E-8608-729723D3FF32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B51F38C-8A31-4A2E-8608-729723D3FF32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B51F38C-8A31-4A2E-8608-729723D3FF32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F953658A-3A6E-4D96-A516-77129429EFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F953658A-3A6E-4D96-A516-77129429EFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F953658A-3A6E-4D96-A516-77129429EFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F953658A-3A6E-4D96-A516-77129429EFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A4D180F-9F6B-44FC-8819-9E595453852A}
+	EndGlobalSection
+EndGlobal

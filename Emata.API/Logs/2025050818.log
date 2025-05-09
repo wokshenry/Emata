@@ -1,0 +1,33 @@
+2025-05-08 18:39:49 +03:00 [FTL] (Microsoft.AspNetCore.Hosting.Diagnostics) Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider' while attempting to activate 'Microsoft.AspNetCore.Authentication.AuthenticationMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-05-08 18:39:49 +03:00 [ERR] (Microsoft.Extensions.Hosting.Internal.Host) Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Authentication.IAuthenticationSchemeProvider' while attempting to activate 'Microsoft.AspNetCore.Authentication.AuthenticationMiddleware'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2025-05-08 18:41:21 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-08 18:41:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-08 18:41:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-08 18:41:22 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-08 18:41:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-08 18:41:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-08 18:41:22 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-08 18:41:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-08 18:41:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 321.5173ms
+2025-05-08 18:41:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-08 18:41:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 41.6895ms
+2025-05-08 18:41:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-08 18:41:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 40.9842ms
+2025-05-08 18:41:24 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-08 18:41:24 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 135.4422ms

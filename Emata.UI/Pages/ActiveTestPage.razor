@@ -1,0 +1,97 @@
+﻿@page "/active"
+@using Emata.Shared.ViewModels
+@using Emata.UI.Services
+@inject ISessionService TestService
+@inject NavigationManager NavigationManager
+@implements IDisposable
+@* <h3>ActiveTestPage</h3> *@
+
+<div class="container mt-3">
+    @if (IsLoading)
+    {
+        <div class="text-center">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+            <p>Loading Sessions...</p>
+        </div>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <td>Start Date</td>
+                    <td>End Date</td>
+                    <td>Remaining Time</td>
+                    <td>Status</td>
+                    <td>Manage</td>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ActiveSessions != null && ActiveSessions.Count > 0)
+                {
+                    foreach (var item in ActiveSessions)
+                    {
+                        <tr>
+                            <td>@item.StartTime.ToString("dd MMM yyyy")</td>
+                            <td>@item.EndTime.ToString("dd MMM yyyy")</td>
+                            <td>@item.RemainingTime.ToString(@"hh\:mm\:ss")</td>
+                            <td>
+                                @if (item.IsActive)
+                                {
+                                    <label class="alert alert-success">Is Active</label>
+                                }
+                                else
+                                {
+                                    <label class="alert alert-danger">Expired</label>
+                                }
+                            </td>
+                            <td>
+                                @if (item.IsActive)
+                                {
+                                    <button class="btn btn-primary" @onclick=@(()=> ResumeTest(item.Id))>Resume</button>
+                                }
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="4">
+                            <label>There are no records to display</label>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+
+</div>
+
+@code {
+    List<TestSessionSummaryDTO>? ActiveSessions { get; set; }
+    bool IsLoading { get; set; } = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        IsLoading = true;
+        //await base.OnInitializedAsync();
+        ActiveSessions = await TestService.GetActiveSessions();
+
+        IsLoading = false;
+
+    }
+
+    void ResumeTest(Guid Id)
+    {
+        NavigationManager.NavigateTo($"/test/{Id}");
+    }
+
+    public void Dispose()
+    {
+        //_timer?.Dispose();
+    }
+}

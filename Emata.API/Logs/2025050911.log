@@ -1,0 +1,217 @@
+2025-05-09 11:34:01 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 11:34:03 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 11:34:03 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 11:34:03 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 11:34:03 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 11:34:03 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 11:34:03 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 11:34:03 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 11:34:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 128.5448ms
+2025-05-09 11:34:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 11:34:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 108.6343ms
+2025-05-09 11:34:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 11:34:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 14.0417ms
+2025-05-09 11:34:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 11:34:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 166.5005ms
+2025-05-09 11:34:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/api/Session/start-test-session - null 0
+2025-05-09 11:34:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/api/Session/start-test-session - 404 0 null 144.8203ms
+2025-05-09 11:34:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7170/api/api/Session/start-test-session, Response status code: 404
+2025-05-09 11:38:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/api/Session/start-test-session - null 0
+2025-05-09 11:38:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/api/Session/start-test-session - 404 0 null 50.7217ms
+2025-05-09 11:38:17 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7170/api/api/Session/start-test-session, Response status code: 404
+2025-05-09 11:40:05 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 11:40:06 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 11:40:06 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 11:40:06 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 11:40:06 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 11:40:06 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 11:40:06 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 11:40:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 11:40:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 175.5052ms
+2025-05-09 11:40:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 11:40:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 40.2629ms
+2025-05-09 11:40:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 11:40:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 24.9002ms
+2025-05-09 11:40:10 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 11:40:10 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 132.2652ms
+2025-05-09 11:40:21 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 11:40:21 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:40:29 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 11:40:30 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (56ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 11:40:30 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (22ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 11:40:30 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: f52f0ed8-773d-48f3-a959-7fcb7169bd7e
+2025-05-09 11:40:30 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: f52f0ed8-773d-48f3-a959-7fcb7169bd7e
+2025-05-09 11:40:30 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 11:40:30 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 11:40:30 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:40:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 9065.156ms
+2025-05-09 11:43:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 11:43:09 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:43:32 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 11:44:01 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 11:45:05 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 31d544f1-6076-468d-b684-24f8034367e2
+2025-05-09 11:45:05 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 31d544f1-6076-468d-b684-24f8034367e2
+2025-05-09 11:45:05 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 11:45:05 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 11:45:05 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:45:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 115755.7195ms
+2025-05-09 11:45:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/start-test-session - null null
+2025-05-09 11:45:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '405 HTTP Method Not Supported'
+2025-05-09 11:45:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '405 HTTP Method Not Supported'
+2025-05-09 11:45:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/api/Session/start-test-session - 405 0 null 41.0903ms
+2025-05-09 11:46:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/api/Session/start-test-session - null null
+2025-05-09 11:46:05 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '405 HTTP Method Not Supported'
+2025-05-09 11:46:05 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '405 HTTP Method Not Supported'
+2025-05-09 11:46:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/api/Session/start-test-session - 405 0 null 3.4946ms
+2025-05-09 11:48:03 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 11:48:03 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:48:08 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 11:48:08 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (24ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 11:48:08 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 919cbc5a-83b3-43d6-aa78-b5cb7ccc7fa5
+2025-05-09 11:48:08 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 919cbc5a-83b3-43d6-aa78-b5cb7ccc7fa5
+2025-05-09 11:48:08 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 11:48:08 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 11:48:08 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:48:08 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 4818.5072ms
+2025-05-09 11:50:50 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 11:50:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 11:50:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 11:50:51 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 11:50:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 11:50:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 11:50:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 11:50:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 11:50:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 185.899ms
+2025-05-09 11:50:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 11:50:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 93.5203ms
+2025-05-09 11:50:53 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 11:50:53 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 29.0089ms
+2025-05-09 11:50:54 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 11:50:54 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 138.7069ms
+2025-05-09 11:51:19 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 11:51:19 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:51:27 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 11:51:28 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (141ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 11:51:29 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (28ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 11:51:29 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 89c60694-9a4c-4340-bb54-ebc4647d15d8
+2025-05-09 11:51:29 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 89c60694-9a4c-4340-bb54-ebc4647d15d8
+2025-05-09 11:51:29 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 11:51:29 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 11:51:29 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:51:29 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 10133.7705ms
+2025-05-09 11:56:57 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 11:56:57 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 11:56:57 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 11:56:57 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 11:56:57 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 11:56:57 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 11:56:57 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 11:56:58 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 11:56:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 347.3677ms
+2025-05-09 11:56:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 11:56:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 67.596ms
+2025-05-09 11:56:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 11:56:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 23.7904ms
+2025-05-09 11:57:00 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 11:57:00 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 157.4186ms
+2025-05-09 11:57:14 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 11:57:14 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:57:21 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 11:57:22 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (69ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 11:57:22 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 11:57:22 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 8fe7d991-0ed6-4caa-b296-5949a875aac7
+2025-05-09 11:57:22 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 8fe7d991-0ed6-4caa-b296-5949a875aac7
+2025-05-09 11:57:22 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 11:57:22 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 11:57:22 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 11:57:22 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 8241.2081ms

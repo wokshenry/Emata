@@ -1,0 +1,161 @@
+[
+  {
+    "ContainingType": "Emata.API.Endpoints.SessionEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__1_5",
+    "RelativePath": "api/session/cleanup-expired",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Session"
+    ]
+  },
+  {
+    "ContainingType": "Emata.API.Endpoints.SessionEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__1_3",
+    "RelativePath": "api/session/finish-test-session/{sessionId}",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Emata.Shared.ViewModels.TestResultDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Session"
+    ]
+  },
+  {
+    "ContainingType": "Emata.API.Endpoints.SessionEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__1_4",
+    "RelativePath": "api/session/get-active-session",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Emata.Shared.ViewModels.TestSessionSummaryDTO, Emata.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Session"
+    ]
+  },
+  {
+    "ContainingType": "Emata.API.Endpoints.SessionEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__1_1",
+    "RelativePath": "api/session/get-session/{sessionId}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Emata.Shared.ViewModels.TestSessionDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Session"
+    ]
+  },
+  {
+    "ContainingType": "Emata.API.Endpoints.SessionEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__1_0",
+    "RelativePath": "api/session/start-test-session",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Emata.Shared.ViewModels.TestSessionDTO",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Session"
+    ]
+  },
+  {
+    "ContainingType": "Emata.API.Endpoints.SessionEndPoint\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoint\u003Eb__1_2",
+    "RelativePath": "api/session/submit-answer",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Emata.Shared.ViewModels.AnswerSubmitDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Session"
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__5",
+    "RelativePath": "weatherforecast",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WeatherForecast[]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

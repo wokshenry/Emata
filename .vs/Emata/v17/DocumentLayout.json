@@ -1,0 +1,578 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\system\\core\\Emata\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\pages\\activetestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\pages\\activetestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\pages\\testpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\pages\\testpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\endpoints\\sessionendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\endpoints\\sessionendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\pages\\resultpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\pages\\resultpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testsessionsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\testsessionsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\models\\testsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\models\\testsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\services\\itestsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\services\\itestsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\services\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\services\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\services\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\services\\iquestionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\extensions\\sessionmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\extensions\\sessionmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\testresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\configuration\\entityconfiguration\\testsessionquestionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\configuration\\entityconfiguration\\testsessionquestionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\models\\testresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\models\\testresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\testsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\models\\testsessionquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\models\\testsessionquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\options\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\options\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\answersubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\answersubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\shared\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\shared\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\configuration\\entityconfiguration\\testresultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\configuration\\entityconfiguration\\testresultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\configuration\\entityconfiguration\\testsessionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\configuration\\entityconfiguration\\testsessionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\configuration\\entityconfiguration\\questionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\configuration\\entityconfiguration\\questionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\shared\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\shared\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hwokwera\\AppData\\Roaming\\Microsoft\\UserSecrets\\2d8e07c0-7346-4534-9f8c-c02491437f57\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Emata.UI\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Emata.UI\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T12:18:35.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActiveTestPage.razor",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\ActiveTestPage.razor",
+              "RelativeDocumentMoniker": "Emata.UI\\Pages\\ActiveTestPage.razor",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\ActiveTestPage.razor",
+              "RelativeToolTip": "Emata.UI\\Pages\\ActiveTestPage.razor",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T11:26:51.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestPage.razor",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\TestPage.razor",
+              "RelativeDocumentMoniker": "Emata.UI\\Pages\\TestPage.razor",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\TestPage.razor",
+              "RelativeToolTip": "Emata.UI\\Pages\\TestPage.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:15:17.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TestResultDTO.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\TestResultDTO.cs",
+              "RelativeDocumentMoniker": "Emata.SHARED\\ViewModels\\TestResultDTO.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\TestResultDTO.cs",
+              "RelativeToolTip": "Emata.SHARED\\ViewModels\\TestResultDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T09:52:37.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Urls.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Options\\Urls.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Options\\Urls.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Options\\Urls.cs",
+              "RelativeToolTip": "Emata.API\\Options\\Urls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T09:05:47.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\wwwroot\\appsettings.json",
+              "RelativeDocumentMoniker": "Emata.UI\\wwwroot\\appsettings.json",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\wwwroot\\appsettings.json",
+              "RelativeToolTip": "Emata.UI\\wwwroot\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-09T08:27:21.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ResultPage.razor",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\ResultPage.razor",
+              "RelativeDocumentMoniker": "Emata.UI\\Pages\\ResultPage.razor",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\ResultPage.razor",
+              "RelativeToolTip": "Emata.UI\\Pages\\ResultPage.razor",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAEYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:25:06.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Emata.UI\\Pages\\Home.razor",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\Home.razor",
+              "RelativeToolTip": "Emata.UI\\Pages\\Home.razor",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-09T08:13:45.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Program.cs",
+              "RelativeDocumentMoniker": "Emata.UI\\Program.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Program.cs",
+              "RelativeToolTip": "Emata.UI\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:10:46.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISessionService.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Services\\ISessionService.cs",
+              "RelativeDocumentMoniker": "Emata.UI\\Services\\ISessionService.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Services\\ISessionService.cs",
+              "RelativeToolTip": "Emata.UI\\Services\\ISessionService.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAIwHAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:00:10.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionEndPoint.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Endpoints\\SessionEndPoint.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Endpoints\\SessionEndPoint.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Endpoints\\SessionEndPoint.cs",
+              "RelativeToolTip": "Emata.API\\Endpoints\\SessionEndPoint.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAwwHMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:58:07.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SessionMappingExtension.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Extensions\\SessionMappingExtension.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Extensions\\SessionMappingExtension.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Extensions\\SessionMappingExtension.cs",
+              "RelativeToolTip": "Emata.API\\Extensions\\SessionMappingExtension.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvxgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:10:29.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestSessionSummaryDTO.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\TestSessionSummaryDTO.cs",
+              "RelativeDocumentMoniker": "Emata.SHARED\\ViewModels\\TestSessionSummaryDTO.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\TestSessionSummaryDTO.cs",
+              "RelativeToolTip": "Emata.SHARED\\ViewModels\\TestSessionSummaryDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:06:09.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AnswerSubmitDTO.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\AnswerSubmitDTO.cs",
+              "RelativeDocumentMoniker": "Emata.SHARED\\ViewModels\\AnswerSubmitDTO.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\AnswerSubmitDTO.cs",
+              "RelativeToolTip": "Emata.SHARED\\ViewModels\\AnswerSubmitDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAjwAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:04:55.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "QuestionDTO.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\QuestionDTO.cs",
+              "RelativeDocumentMoniker": "Emata.SHARED\\ViewModels\\QuestionDTO.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\QuestionDTO.cs",
+              "RelativeToolTip": "Emata.SHARED\\ViewModels\\QuestionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:03:45.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TestSessionDTO.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\TestSessionDTO.cs",
+              "RelativeDocumentMoniker": "Emata.SHARED\\ViewModels\\TestSessionDTO.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\TestSessionDTO.cs",
+              "RelativeToolTip": "Emata.SHARED\\ViewModels\\TestSessionDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T15:03:15.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TestResultConfiguration.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Configuration\\EntityConfiguration\\TestResultConfiguration.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Configuration\\EntityConfiguration\\TestResultConfiguration.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Configuration\\EntityConfiguration\\TestResultConfiguration.cs",
+              "RelativeToolTip": "Emata.API\\Configuration\\EntityConfiguration\\TestResultConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:32:34.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TestSessionQuestionConfiguration.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Configuration\\EntityConfiguration\\TestSessionQuestionConfiguration.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Configuration\\EntityConfiguration\\TestSessionQuestionConfiguration.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Configuration\\EntityConfiguration\\TestSessionQuestionConfiguration.cs",
+              "RelativeToolTip": "Emata.API\\Configuration\\EntityConfiguration\\TestSessionQuestionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:28:30.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TestSessionConfiguration.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Configuration\\EntityConfiguration\\TestSessionConfiguration.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Configuration\\EntityConfiguration\\TestSessionConfiguration.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Configuration\\EntityConfiguration\\TestSessionConfiguration.cs",
+              "RelativeToolTip": "Emata.API\\Configuration\\EntityConfiguration\\TestSessionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:27:20.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TestSessionQuestion.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Models\\TestSessionQuestion.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Models\\TestSessionQuestion.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Models\\TestSessionQuestion.cs",
+              "RelativeToolTip": "Emata.API\\Models\\TestSessionQuestion.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T14:21:30.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "QuestionConfiguration.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Configuration\\EntityConfiguration\\QuestionConfiguration.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Configuration\\EntityConfiguration\\QuestionConfiguration.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Configuration\\EntityConfiguration\\QuestionConfiguration.cs",
+              "RelativeToolTip": "Emata.API\\Configuration\\EntityConfiguration\\QuestionConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:52:54.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DifficultyLevel.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.SHARED\\Shared\\Enums\\DifficultyLevel.cs",
+              "RelativeDocumentMoniker": "Emata.SHARED\\Shared\\Enums\\DifficultyLevel.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.SHARED\\Shared\\Enums\\DifficultyLevel.cs",
+              "RelativeToolTip": "Emata.SHARED\\Shared\\Enums\\DifficultyLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:42:11.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.SHARED\\Shared\\Constants.cs",
+              "RelativeDocumentMoniker": "Emata.SHARED\\Shared\\Constants.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.SHARED\\Shared\\Constants.cs",
+              "RelativeToolTip": "Emata.SHARED\\Shared\\Constants.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:38:24.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITestSessionService.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Services\\ITestSessionService.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Services\\ITestSessionService.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Services\\ITestSessionService.cs",
+              "RelativeToolTip": "Emata.API\\Services\\ITestSessionService.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAAKoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:08:20.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IQuestionService.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Services\\IQuestionService.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Services\\IQuestionService.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Services\\IQuestionService.cs",
+              "RelativeToolTip": "Emata.API\\Services\\IQuestionService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwCYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T11:01:00.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TestResult.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Models\\TestResult.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Models\\TestResult.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Models\\TestResult.cs",
+              "RelativeToolTip": "Emata.API\\Models\\TestResult.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:57:38.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TestSession.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Models\\TestSession.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Models\\TestSession.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Models\\TestSession.cs",
+              "RelativeToolTip": "Emata.API\\Models\\TestSession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:56:14.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Models\\Question.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Models\\Question.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Models\\Question.cs",
+              "RelativeToolTip": "Emata.API\\Models\\Question.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T10:55:14.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\hwokwera\\AppData\\Roaming\\Microsoft\\UserSecrets\\2d8e07c0-7346-4534-9f8c-c02491437f57\\secrets.json",
+              "ToolTip": "C:\\Users\\hwokwera\\AppData\\Roaming\\Microsoft\\UserSecrets\\2d8e07c0-7346-4534-9f8c-c02491437f57\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T10:43:49.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Emata.API\\appsettings.json",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\appsettings.json",
+              "RelativeToolTip": "Emata.API\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T10:41:20.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Emata.API\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T06:50:49.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Emata.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Emata.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T06:37:39.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Program.cs",
+              "RelativeDocumentMoniker": "Emata.API\\Program.cs",
+              "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Program.cs",
+              "RelativeToolTip": "Emata.API\\Program.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAUwEQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T06:36:57.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

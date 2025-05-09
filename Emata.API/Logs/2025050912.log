@@ -1,0 +1,1431 @@
+2025-05-09 12:01:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:01:33 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:01:44 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:01:44 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 12:01:44 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 0a64e2f4-f6e7-4a67-b24d-c4bca8fa3c4d
+2025-05-09 12:01:44 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 0a64e2f4-f6e7-4a67-b24d-c4bca8fa3c4d
+2025-05-09 12:01:44 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:01:44 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:01:44 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:01:44 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 10854.1525ms
+2025-05-09 12:03:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:03:17 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:03:22 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:03:22 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 12:03:22 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: e2edb746-e4de-4018-b195-7fbb06109833
+2025-05-09 12:03:22 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: e2edb746-e4de-4018-b195-7fbb06109833
+2025-05-09 12:03:22 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:03:22 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:03:22 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:03:22 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 5771.2404ms
+2025-05-09 12:20:48 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 12:20:48 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 12:20:48 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 12:20:48 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 12:20:48 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 12:20:48 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 12:20:48 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 12:20:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 12:20:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 73.9779ms
+2025-05-09 12:20:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 12:20:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 22.3289ms
+2025-05-09 12:20:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:20:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 13.7625ms
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/swagger-ui-standalone-preset.js - null null
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/swagger-ui-bundle.js - null null
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 59.9716ms
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware) Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/swagger-ui-standalone-preset.js - 200 230294 text/javascript 100.4901ms
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware) Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/swagger-ui-bundle.js - 200 1452754 text/javascript 144.6896ms
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 12:20:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 89.9353ms
+2025-05-09 12:20:58 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:20:58 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution failed.
+2025-05-09 12:20:58 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) Request origin https://localhost:7034 does not have permission to access the resource.
+2025-05-09 12:20:58 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:21:03 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 12:21:04 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (61ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:21:04 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (20ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 12:21:04 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 95b76e5d-f710-45fe-b2e0-d84b077f12ee
+2025-05-09 12:21:04 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 95b76e5d-f710-45fe-b2e0-d84b077f12ee
+2025-05-09 12:21:04 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:21:04 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:21:04 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:21:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 6127.9719ms
+2025-05-09 12:22:28 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:22:28 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:22:36 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:22:36 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = Int32), @p3='?', @p4='?', @p5='?', @p6='?' (DbType = Guid), @p7='?', @p8='?' (DbType = Int32), @p9='?', @p10='?', @p11='?', @p12='?' (DbType = Guid), @p13='?', @p14='?' (DbType = Int32), @p15='?', @p16='?', @p17='?', @p18='?' (DbType = Guid), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTime), @p21='?', @p22='?' (DbType = Guid), @p23='?' (DbType = Int32), @p24='?' (DbType = Guid), @p25='?' (DbType = Guid), @p26='?' (DbType = Guid), @p27='?' (DbType = Int32), @p28='?' (DbType = Guid), @p29='?' (DbType = Guid), @p30='?' (DbType = Guid), @p31='?' (DbType = Int32), @p32='?' (DbType = Guid), @p33='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p6, @p7, @p8, @p9, @p10, @p11);
+INSERT INTO "Questions" ("Id", "Category", "CorrectOptionIndex", "DifficultyLevel", "Options", "Text")
+VALUES (@p12, @p13, @p14, @p15, @p16, @p17);
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p18, @p19, @p20, @p21);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p22, @p23, @p24, @p25);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p26, @p27, @p28, @p29);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p30, @p31, @p32, @p33);
+2025-05-09 12:22:36 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 7eb6b3dd-5a36-43ef-bcb8-6c32889bd18c
+2025-05-09 12:22:36 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 7eb6b3dd-5a36-43ef-bcb8-6c32889bd18c
+2025-05-09 12:22:36 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:22:36 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:22:36 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:22:36 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 7154.2845ms
+2025-05-09 12:31:10 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 12:31:11 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 12:31:11 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 12:31:11 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 12:31:11 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 12:31:11 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 12:31:11 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 12:31:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 12:31:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 84.5477ms
+2025-05-09 12:31:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 12:31:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 23.9819ms
+2025-05-09 12:31:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:31:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 10.9699ms
+2025-05-09 12:31:13 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 12:31:13 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 389.2563ms
+2025-05-09 12:31:22 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:31:22 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution failed.
+2025-05-09 12:31:22 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) Request origin https://localhost:7034 does not have permission to access the resource.
+2025-05-09 12:31:22 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:31:28 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 12:31:29 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (97ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:32:28 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 12:32:29 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 12:32:29 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 12:32:29 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 12:32:29 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 12:32:29 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 12:32:29 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 12:32:29 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 12:32:29 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 163.2833ms
+2025-05-09 12:32:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 12:32:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 99.5288ms
+2025-05-09 12:32:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:32:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 22.88ms
+2025-05-09 12:32:30 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 12:32:31 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 280.2997ms
+2025-05-09 12:32:42 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:32:42 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution failed.
+2025-05-09 12:32:42 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) Request origin https://localhost:7034 does not have permission to access the resource.
+2025-05-09 12:32:43 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:32:52 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 12:32:53 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (75ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:32:53 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (27ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 12:32:53 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: d880bf77-b4e4-4713-9253-0a747dfc2585
+2025-05-09 12:32:53 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: d880bf77-b4e4-4713-9253-0a747dfc2585
+2025-05-09 12:32:53 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:32:53 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:32:53 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:32:53 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 10903.4962ms
+2025-05-09 12:34:03 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 12:34:04 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 12:34:04 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 12:34:04 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 12:34:04 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 12:34:04 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 12:34:04 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 12:34:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 12:34:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 100.6564ms
+2025-05-09 12:34:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 12:34:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 37.0118ms
+2025-05-09 12:34:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:34:05 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 24.5345ms
+2025-05-09 12:34:06 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 12:34:06 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 369.9278ms
+2025-05-09 12:34:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:34:16 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution failed.
+2025-05-09 12:34:16 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) Request origin https://localhost:7034 does not have permission to access the resource.
+2025-05-09 12:34:16 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:34:22 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 12:34:24 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (138ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:34:24 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (37ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 12:34:24 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 23e89a67-8b6b-4daa-a77d-3c59dae2cdb4
+2025-05-09 12:34:24 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 23e89a67-8b6b-4daa-a77d-3c59dae2cdb4
+2025-05-09 12:34:24 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:34:24 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:34:24 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:34:25 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 8483.4656ms
+2025-05-09 12:34:54 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:34:54 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:34:58 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:34:58 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 12:34:58 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: c95ed976-db19-48fb-b56b-7a39ed3b6ae6
+2025-05-09 12:34:58 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: c95ed976-db19-48fb-b56b-7a39ed3b6ae6
+2025-05-09 12:34:58 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:34:58 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:34:58 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:34:58 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 4277.5334ms
+2025-05-09 12:39:50 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 12:39:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 12:39:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 12:39:51 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 12:39:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 12:39:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 12:39:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 12:39:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 12:39:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 105.3168ms
+2025-05-09 12:39:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 12:39:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 19.5111ms
+2025-05-09 12:39:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:39:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 13.2305ms
+2025-05-09 12:39:53 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 12:39:53 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 250.0657ms
+2025-05-09 12:40:10 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:40:10 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution failed.
+2025-05-09 12:40:10 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) Request origin https://localhost:7034 does not have permission to access the resource.
+2025-05-09 12:40:10 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:40:16 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 12:40:17 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (128ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:40:18 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (40ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 12:40:18 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 57e428b0-3675-46b8-8561-b2d42743b403
+2025-05-09 12:40:18 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 57e428b0-3675-46b8-8561-b2d42743b403
+2025-05-09 12:40:18 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:40:18 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:40:18 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:40:18 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 8210.464ms
+2025-05-09 12:42:59 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 12:43:00 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 12:43:00 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 12:43:00 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 103.3996ms
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 31.2907ms
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:43:01 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 17.5468ms
+2025-05-09 12:43:02 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 12:43:02 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 127.3928ms
+2025-05-09 12:43:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:43:12 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:43:12 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:43:18 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 12:43:20 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (285ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:43:20 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (200ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 12:43:20 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f
+2025-05-09 12:43:20 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f
+2025-05-09 12:43:20 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:43:20 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:43:20 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:43:20 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 8284.0457ms
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 13.7056ms
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:43:59 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f, question b31f62f5-bba8-4582-b19b-1400d90efbdd: 1
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (27ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (6ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:43:59 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f, question b31f62f5-bba8-4582-b19b-1400d90efbdd: 1
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:43:59 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 577.2949ms
+2025-05-09 12:44:03 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:44:03 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:44:03 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:44:03 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f, question 53f6a56b-e80b-4992-8168-0e14710e6c6d: 1
+2025-05-09 12:44:03 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:44:03 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:44:03 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f, question 53f6a56b-e80b-4992-8168-0e14710e6c6d: 1
+2025-05-09 12:44:03 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:44:03 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:44:03 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 198.8239ms
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 2.5969ms
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:44:09 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f, question 3a049314-b09a-411d-ba3d-b71a989444d6: 2
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (5ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (7ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:44:09 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f, question 3a049314-b09a-411d-ba3d-b71a989444d6: 2
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:44:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 33.5413ms
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 6.3079ms
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:44:18 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f, question b31f62f5-bba8-4582-b19b-1400d90efbdd: 0
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:44:18 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f, question b31f62f5-bba8-4582-b19b-1400d90efbdd: 0
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:44:18 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 21.3621ms
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f - null 0
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:44:28 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (24ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (DbType = Guid), @p4='?' (DbType = Object), @p5='?' (DbType = Int32), @p7='?' (DbType = Guid), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestResults" ("Id", "CompletedAt", "CorrectAnswers", "SessionId", "TimeTaken", "TotalQuestions")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+UPDATE "TestSessions" SET "IsCompleted" = @p6
+WHERE "Id" = @p7;
+2025-05-09 12:44:28 +03:00 [INF] (Emata.API.Services.TestSessionService) Test completed for session e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f. Score: 0.00%, Time: 00:01:08.1907488
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestResult' as Json.
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:44:28 +03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 64. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.SessionId.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.<WriteAsJsonAsync>g__WriteAsJsonAsyncSlow|5_0[TValue](HttpResponse response, TValue value, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-09 12:44:28 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f - 500 null text/plain; charset=utf-8 297.0604ms
+2025-05-09 12:45:01 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f - null 0
+2025-05-09 12:45:01 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:45:01 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:45:01 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f
+2025-05-09 12:45:01 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:45:01 +03:00 [ERR] (Microsoft.EntityFrameworkCore.Database.Command) Failed executing DbCommand (15ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (DbType = Guid), @p4='?' (DbType = Object), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestResults" ("Id", "CompletedAt", "CorrectAnswers", "SessionId", "TimeTaken", "TotalQuestions")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-05-09 12:45:01 +03:00 [ERR] (Microsoft.EntityFrameworkCore.Update) An exception occurred in the database while saving changes for context type 'Emata.API.Context.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: TestResults
+    ConstraintName: IX_TestResults_SessionId
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: TestResults
+    ConstraintName: IX_TestResults_SessionId
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-05-09 12:45:03 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:45:27 +03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: TestResults
+    ConstraintName: IX_TestResults_SessionId
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Emata.API.Services.TestSessionService.CalculateResultsAsync(Guid sessionId) in D:\system\core\Emata\Emata.API\Services\ITestSessionService.cs:line 152
+   at Emata.API.Endpoints.SessionEndPoint.<>c.<<MapEndpoint>b__1_3>d.MoveNext() in D:\system\core\Emata\Emata.API\Endpoints\SessionEndPoint.cs:line 89
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-09 12:45:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/e2f9d1f7-1fa8-4802-aaa8-01fd10b2941f - 500 null text/plain; charset=utf-8 25932.7346ms
+2025-05-09 12:48:54 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 12:48:55 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 12:48:55 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 12:48:55 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 12:48:55 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 12:48:55 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 12:48:55 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 12:48:56 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 12:48:56 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 97.6825ms
+2025-05-09 12:48:56 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 12:48:56 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 33.853ms
+2025-05-09 12:48:56 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:48:56 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 20.7797ms
+2025-05-09 12:48:56 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 12:48:57 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 402.0103ms
+2025-05-09 12:49:08 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:49:08 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:49:08 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:49:19 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 12:49:20 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (135ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:49:20 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (39ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 12:49:20 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 4225b3cf-7fd8-42a9-abca-f80af0760915
+2025-05-09 12:49:20 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 4225b3cf-7fd8-42a9-abca-f80af0760915
+2025-05-09 12:49:20 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:49:20 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:49:21 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:49:21 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 12366.3585ms
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 5.9089ms
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:49:35 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 4225b3cf-7fd8-42a9-abca-f80af0760915, question 2d9dd2d0-25ce-47b4-9a2c-c6adb9024b61: 0
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (20ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:49:35 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 4225b3cf-7fd8-42a9-abca-f80af0760915, question 2d9dd2d0-25ce-47b4-9a2c-c6adb9024b61: 0
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:49:35 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 280.4897ms
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 2.1984ms
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:49:48 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 4225b3cf-7fd8-42a9-abca-f80af0760915, question e0b423bf-d15f-4dee-b321-6eed79de9049: 4
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:49:48 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 4225b3cf-7fd8-42a9-abca-f80af0760915, question e0b423bf-d15f-4dee-b321-6eed79de9049: 4
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:49:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 136.2214ms
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 52.4746ms
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:50:21 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 4225b3cf-7fd8-42a9-abca-f80af0760915, question cc4f86fe-9789-49fc-9fe5-ebf73485f315: 2
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:50:21 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 4225b3cf-7fd8-42a9-abca-f80af0760915, question cc4f86fe-9789-49fc-9fe5-ebf73485f315: 2
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:50:21 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 33.9146ms
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/4225b3cf-7fd8-42a9-abca-f80af0760915 - null 0
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:50:23 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: 4225b3cf-7fd8-42a9-abca-f80af0760915
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (DbType = Guid), @p4='?' (DbType = Object), @p5='?' (DbType = Int32), @p7='?' (DbType = Guid), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestResults" ("Id", "CompletedAt", "CorrectAnswers", "SessionId", "TimeTaken", "TotalQuestions")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+UPDATE "TestSessions" SET "IsCompleted" = @p6
+WHERE "Id" = @p7;
+2025-05-09 12:50:23 +03:00 [INF] (Emata.API.Services.TestSessionService) Test completed for session 4225b3cf-7fd8-42a9-abca-f80af0760915. Score: 66.67%, Time: 00:01:02.7144191
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestResult' as Json.
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:50:23 +03:00 [ERR] (Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware) An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: A possible object cycle was detected. This can either be due to a cycle or if the object depth is larger than the maximum allowed depth of 64. Consider using ReferenceHandler.Preserve on JsonSerializerOptions to support cycles. Path: $.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.Session.SessionQuestions.SessionId.
+   at System.Text.Json.ThrowHelper.ThrowJsonException_SerializerCycleDetected(Int32 maxDepth)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Converters.ListOfTConverter`2.OnWriteResume(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonCollectionConverter`2.OnTryWrite(Utf8JsonWriter writer, TCollection value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at System.Text.Json.Serialization.Metadata.JsonTypeInfo`1.SerializeAsync(PipeWriter pipeWriter, T rootValue, Int32 flushThreshold, CancellationToken cancellationToken, Object rootValueBoxed)
+   at Microsoft.AspNetCore.Http.HttpResponseJsonExtensions.<WriteAsJsonAsync>g__WriteAsJsonAsyncSlow|5_0[TValue](HttpResponse response, TValue value, JsonTypeInfo`1 jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.ExecuteTaskResult[T](Task`1 task, HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.SwaggerUiIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.RedirectToIndexMiddleware.Invoke(HttpContext context)
+   at NSwag.AspNetCore.Middlewares.OpenApiDocumentMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-05-09 12:50:23 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/4225b3cf-7fd8-42a9-abca-f80af0760915 - 500 null text/plain; charset=utf-8 153.521ms
+2025-05-09 12:56:29 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 12:56:31 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 12:56:31 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 12:56:31 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 108.1458ms
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 32.5531ms
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 12:56:32 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 20.4789ms
+2025-05-09 12:56:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 12:56:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 141.5889ms
+2025-05-09 12:56:44 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 12:56:44 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:56:45 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:56:47 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 12:56:49 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (461ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 12:56:50 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (56ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 12:56:50 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 949dfe2b-406f-483e-8441-c9da95d4bb5f
+2025-05-09 12:56:50 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 949dfe2b-406f-483e-8441-c9da95d4bb5f
+2025-05-09 12:56:50 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:56:50 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 12:56:50 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 12:56:50 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 5891.1957ms
+2025-05-09 12:56:54 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:56:54 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:56:54 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 10.8807ms
+2025-05-09 12:56:54 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:56:54 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:56:54 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:56:54 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 949dfe2b-406f-483e-8441-c9da95d4bb5f, question fa17bb2c-b9ff-4b79-891b-3c4a969ef116: 0
+2025-05-09 12:56:55 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (60ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:56:55 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (10ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:56:55 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 949dfe2b-406f-483e-8441-c9da95d4bb5f, question fa17bb2c-b9ff-4b79-891b-3c4a969ef116: 0
+2025-05-09 12:56:55 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:56:55 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:56:55 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 550.9234ms
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 4.3291ms
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:57:12 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 949dfe2b-406f-483e-8441-c9da95d4bb5f, question cc4f86fe-9789-49fc-9fe5-ebf73485f315: 2
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:57:12 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 949dfe2b-406f-483e-8441-c9da95d4bb5f, question cc4f86fe-9789-49fc-9fe5-ebf73485f315: 2
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:57:12 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 164.3591ms
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 2.4696ms
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:57:27 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 949dfe2b-406f-483e-8441-c9da95d4bb5f, question 2d9dd2d0-25ce-47b4-9a2c-c6adb9024b61: 1
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 12:57:27 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 949dfe2b-406f-483e-8441-c9da95d4bb5f, question 2d9dd2d0-25ce-47b4-9a2c-c6adb9024b61: 1
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 12:57:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 17.9011ms
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/949dfe2b-406f-483e-8441-c9da95d4bb5f - null 0
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:57:31 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: 949dfe2b-406f-483e-8441-c9da95d4bb5f
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (DbType = Guid), @p4='?' (DbType = Object), @p5='?' (DbType = Int32), @p7='?' (DbType = Guid), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestResults" ("Id", "CompletedAt", "CorrectAnswers", "SessionId", "TimeTaken", "TotalQuestions")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+UPDATE "TestSessions" SET "IsCompleted" = @p6
+WHERE "Id" = @p7;
+2025-05-09 12:57:31 +03:00 [INF] (Emata.API.Services.TestSessionService) Test completed for session 949dfe2b-406f-483e-8441-c9da95d4bb5f. Score: 100.00%, Time: 00:00:41.4406958
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestResultDTO' as Json.
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:57:31 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/949dfe2b-406f-483e-8441-c9da95d4bb5f - 200 null application/json; charset=utf-8 89.4313ms
+2025-05-09 12:57:47 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/949dfe2b-406f-483e-8441-c9da95d4bb5f - null 0
+2025-05-09 12:57:47 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 12:57:47 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 12:57:47 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: 949dfe2b-406f-483e-8441-c9da95d4bb5f
+2025-05-09 12:57:47 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 12:57:47 +03:00 [ERR] (Microsoft.EntityFrameworkCore.Database.Command) Failed executing DbCommand (27ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (DbType = Guid), @p4='?' (DbType = Object), @p5='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestResults" ("Id", "CompletedAt", "CorrectAnswers", "SessionId", "TimeTaken", "TotalQuestions")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2025-05-09 12:57:47 +03:00 [ERR] (Microsoft.EntityFrameworkCore.Update) An exception occurred in the database while saving changes for context type 'Emata.API.Context.ApplicationDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: TestResults
+    ConstraintName: IX_TestResults_SessionId
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23505: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23505
+    MessageText: duplicate key value violates unique constraint "IX_TestResults_SessionId"
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: TestResults
+    ConstraintName: IX_TestResults_SessionId
+    File: nbtinsert.c
+    Line: 673
+    Routine: _bt_check_unique
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2025-05-09 12:57:47 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'

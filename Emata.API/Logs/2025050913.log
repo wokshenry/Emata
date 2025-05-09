@@ -1,0 +1,484 @@
+2025-05-09 13:00:37 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 13:00:38 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 13:00:38 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 13:00:38 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 13:00:38 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 13:00:38 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 13:00:38 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 13:00:40 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 13:00:40 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 213.5107ms
+2025-05-09 13:00:40 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 13:00:40 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 60.3722ms
+2025-05-09 13:00:40 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 13:00:40 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 30.219ms
+2025-05-09 13:00:41 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 13:00:41 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 293.393ms
+2025-05-09 13:01:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/949dfe2b-406f-483e-8441-c9da95d4bb5f - null 0
+2025-05-09 13:01:09 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:01:09 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:01:10 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: 949dfe2b-406f-483e-8441-c9da95d4bb5f
+2025-05-09 13:01:11 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 13:01:14 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (264ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CompletedAt", t."CorrectAnswers", t."SessionId", t."TimeTaken", t."TotalQuestions", t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson"
+FROM "TestResults" AS t
+INNER JOIN "TestSessions" AS t0 ON t."SessionId" = t0."Id"
+WHERE t."SessionId" = @__sessionId_0
+LIMIT 1
+2025-05-09 13:01:14 +03:00 [INF] (Emata.API.Services.TestSessionService) Session 949dfe2b-406f-483e-8441-c9da95d4bb5f already completed. Score: 100.00%
+2025-05-09 13:01:14 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:01:14 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestResultDTO' as Json.
+2025-05-09 13:01:14 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:01:14 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/949dfe2b-406f-483e-8441-c9da95d4bb5f - 200 null application/json; charset=utf-8 4788.2214ms
+2025-05-09 13:06:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 13:06:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 4.2461ms
+2025-05-09 13:06:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 13:06:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 1.4735ms
+2025-05-09 13:06:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 13:06:27 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 1.2902ms
+2025-05-09 13:35:50 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 13:35:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 13:35:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 13:35:51 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 13:35:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 13:35:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 13:35:51 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 13:35:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 13:35:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 88.5111ms
+2025-05-09 13:35:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 13:35:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 33.8842ms
+2025-05-09 13:35:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 13:35:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 23.499ms
+2025-05-09 13:35:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 13:35:52 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 191.9843ms
+2025-05-09 13:36:09 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 13:36:09 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:36:09 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 13:36:10 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 13:36:11 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (95ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY gen_random_uuid()
+LIMIT @__p_0
+2025-05-09 13:36:11 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (60ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+2025-05-09 13:36:11 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: c035d2c5-2628-4720-9f92-393c951d02a7
+2025-05-09 13:36:11 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: c035d2c5-2628-4720-9f92-393c951d02a7
+2025-05-09 13:36:11 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:36:11 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 13:36:11 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 13:36:11 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 2319.2038ms
+2025-05-09 13:51:14 +03:00 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using 'C:\Users\hwokwera\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-05-09 13:51:15 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: https://localhost:7170
+2025-05-09 13:51:15 +03:00 [INF] (Microsoft.Hosting.Lifetime) Now listening on: http://localhost:5099
+2025-05-09 13:51:15 +03:00 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider) No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2025-05-09 13:51:15 +03:00 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2025-05-09 13:51:15 +03:00 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: Development
+2025-05-09 13:51:15 +03:00 [INF] (Microsoft.Hosting.Lifetime) Content root path: D:\system\core\Emata\Emata.API
+2025-05-09 13:51:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger - null null
+2025-05-09 13:51:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger - 302 0 null 68.0132ms
+2025-05-09 13:51:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/index.html - null null
+2025-05-09 13:51:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/index.html - 200 null text/html; charset=utf-8 28.5209ms
+2025-05-09 13:51:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - null null
+2025-05-09 13:51:16 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/_framework/aspnetcore-browser-refresh.js - 200 16503 application/javascript; charset=utf-8 14.2806ms
+2025-05-09 13:51:17 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - null null
+2025-05-09 13:51:17 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 GET https://localhost:7170/swagger/v1/swagger.json - 200 null application/json; charset=utf-8 308.8318ms
+2025-05-09 13:51:34 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 13:51:34 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:51:34 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 13:51:36 +03:00 [WRN] (Microsoft.EntityFrameworkCore.Model.Validation) The property 'Question.Options' is a collection or enumeration type with a value converter but with no value comparer. Set a value comparer to ensure the collection/enumeration elements are compared correctly.
+2025-05-09 13:51:38 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY q."Id"
+2025-05-09 13:51:38 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (44ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Int32), @p18='?' (DbType = Guid), @p19='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p16, @p17, @p18, @p19);
+2025-05-09 13:51:38 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: 4060bdbe-bf37-4932-99ff-2f1b21375436
+2025-05-09 13:51:38 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: 4060bdbe-bf37-4932-99ff-2f1b21375436
+2025-05-09 13:51:38 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:51:38 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 13:51:38 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 13:51:38 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 4668.729ms
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 5.6218ms
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:51:42 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question cc4f86fe-9789-49fc-9fe5-ebf73485f315: 2
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (33ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (13ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 13:51:42 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question cc4f86fe-9789-49fc-9fe5-ebf73485f315: 2
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:51:42 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 344.314ms
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 3.5003ms
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:51:49 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question 6f9d50a7-d740-4d92-8ee9-7a4d4e05351e: 2
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 13:51:49 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question 6f9d50a7-d740-4d92-8ee9-7a4d4e05351e: 2
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:51:49 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 165.4771ms
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 46.1574ms
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:52:15 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question 6f9d50a7-d740-4d92-8ee9-7a4d4e05351e: 2
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:52:15 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question 6f9d50a7-d740-4d92-8ee9-7a4d4e05351e: 2
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:52:15 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 15.2581ms
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 14.9322ms
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:52:43 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question 6f9d50a7-d740-4d92-8ee9-7a4d4e05351e: 2
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:52:43 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question 6f9d50a7-d740-4d92-8ee9-7a4d4e05351e: 2
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:52:43 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 24.0247ms
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 4.2109ms
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:52:55 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question d72e0d79-ee81-4989-82c8-b1fd322597eb: 3
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (17ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 13:52:55 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session 4060bdbe-bf37-4932-99ff-2f1b21375436, question d72e0d79-ee81-4989-82c8-b1fd322597eb: 3
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:52:55 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 35.1583ms
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/4060bdbe-bf37-4932-99ff-2f1b21375436 - null 0
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:52:57 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: 4060bdbe-bf37-4932-99ff-2f1b21375436
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (29ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CompletedAt", t."CorrectAnswers", t."SessionId", t."TimeTaken", t."TotalQuestions", t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson"
+FROM "TestResults" AS t
+INNER JOIN "TestSessions" AS t0 ON t."SessionId" = t0."Id"
+WHERE t."SessionId" = @__sessionId_0
+LIMIT 1
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (DbType = Guid), @p4='?' (DbType = Object), @p5='?' (DbType = Int32), @p7='?' (DbType = Guid), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestResults" ("Id", "CompletedAt", "CorrectAnswers", "SessionId", "TimeTaken", "TotalQuestions")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+UPDATE "TestSessions" SET "IsCompleted" = @p6
+WHERE "Id" = @p7;
+2025-05-09 13:52:57 +03:00 [INF] (Emata.API.Services.TestSessionService) Test completed for session 4060bdbe-bf37-4932-99ff-2f1b21375436. Score: 100.00%, Time: 00:01:19.4073808
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestResultDTO' as Json.
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/4060bdbe-bf37-4932-99ff-2f1b21375436 - 200 null application/json; charset=utf-8 143.7349ms
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/4060bdbe-bf37-4932-99ff-2f1b21375436 - null 0
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:52:57 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: 4060bdbe-bf37-4932-99ff-2f1b21375436
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CompletedAt", t."CorrectAnswers", t."SessionId", t."TimeTaken", t."TotalQuestions", t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson"
+FROM "TestResults" AS t
+INNER JOIN "TestSessions" AS t0 ON t."SessionId" = t0."Id"
+WHERE t."SessionId" = @__sessionId_0
+LIMIT 1
+2025-05-09 13:52:57 +03:00 [INF] (Emata.API.Services.TestSessionService) Session 4060bdbe-bf37-4932-99ff-2f1b21375436 already completed. Score: 100.00%
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestResultDTO' as Json.
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:52:57 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/4060bdbe-bf37-4932-99ff-2f1b21375436 - 200 null application/json; charset=utf-8 14.936ms
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/start-test-session - null 0
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT q."Id", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+FROM "Questions" AS q
+ORDER BY q."Id"
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (12ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?' (DbType = DateTime), @p3='?', @p4='?' (DbType = Guid), @p5='?' (DbType = Int32), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = Guid), @p9='?' (DbType = Int32), @p10='?' (DbType = Guid), @p11='?' (DbType = Guid), @p12='?' (DbType = Guid), @p13='?' (DbType = Int32), @p14='?' (DbType = Guid), @p15='?' (DbType = Guid), @p16='?' (DbType = Guid), @p17='?' (DbType = Int32), @p18='?' (DbType = Guid), @p19='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestSessions" ("Id", "IsCompleted", "StartTime", "UserAnswersJson")
+VALUES (@p0, @p1, @p2, @p3);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p4, @p5, @p6, @p7);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p8, @p9, @p10, @p11);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p12, @p13, @p14, @p15);
+INSERT INTO "TestSessionQuestions" ("Id", "OrderIndex", "QuestionId", "SessionId")
+VALUES (@p16, @p17, @p18, @p19);
+2025-05-09 13:53:04 +03:00 [INF] (Emata.API.Services.TestSessionService) Created new test session: c924afc9-0f87-4be2-92b0-9c8436937306
+2025-05-09 13:53:04 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Starting new test session: c924afc9-0f87-4be2-92b0-9c8436937306
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestSessionDTO' as Json.
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/start-test-session'
+2025-05-09 13:53:04 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/start-test-session - 200 null application/json; charset=utf-8 46.6451ms
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 2.4281ms
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:53:06 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session c924afc9-0f87-4be2-92b0-9c8436937306, question 2d9dd2d0-25ce-47b4-9a2c-c6adb9024b61: 0
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 13:53:06 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session c924afc9-0f87-4be2-92b0-9c8436937306, question 2d9dd2d0-25ce-47b4-9a2c-c6adb9024b61: 0
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:53:06 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 26.3677ms
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 1.8428ms
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:53:11 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session c924afc9-0f87-4be2-92b0-9c8436937306, question cc4f86fe-9789-49fc-9fe5-ebf73485f315: 2
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 13:53:11 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session c924afc9-0f87-4be2-92b0-9c8436937306, question cc4f86fe-9789-49fc-9fe5-ebf73485f315: 2
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:53:11 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 14.8374ms
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 7.3792ms
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:53:33 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session c924afc9-0f87-4be2-92b0-9c8436937306, question cce917bd-c030-4281-9538-7bd8a88440e5: 2
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 13:53:33 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session c924afc9-0f87-4be2-92b0-9c8436937306, question cce917bd-c030-4281-9538-7bd8a88440e5: 2
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:53:33 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 19.1593ms
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - null null
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 OPTIONS https://localhost:7170/api/Session/submit-answer - 204 null null 2.0519ms
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/submit-answer - application/json; charset=utf-8 128
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:53:41 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Submitting answer for session c924afc9-0f87-4be2-92b0-9c8436937306, question 53f6a56b-e80b-4992-8168-0e14710e6c6d: 0
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "TestSessions" SET "UserAnswersJson" = @p0
+WHERE "Id" = @p1;
+2025-05-09 13:53:41 +03:00 [INF] (Emata.API.Services.TestSessionService) Answer submitted for session c924afc9-0f87-4be2-92b0-9c8436937306, question 53f6a56b-e80b-4992-8168-0e14710e6c6d: 0
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/submit-answer'
+2025-05-09 13:53:41 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/submit-answer - 200 0 null 26.3616ms
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/c924afc9-0f87-4be2-92b0-9c8436937306 - null 0
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:53:48 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: c924afc9-0f87-4be2-92b0-9c8436937306
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (3ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CompletedAt", t."CorrectAnswers", t."SessionId", t."TimeTaken", t."TotalQuestions", t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson"
+FROM "TestResults" AS t
+INNER JOIN "TestSessions" AS t0 ON t."SessionId" = t0."Id"
+WHERE t."SessionId" = @__sessionId_0
+LIMIT 1
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (6ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson", t1."Id", t1."OrderIndex", t1."QuestionId", t1."SessionId", t1."Id0", t1."Category", t1."CorrectOptionIndex", t1."DifficultyLevel", t1."Options", t1."Text"
+FROM (
+    SELECT t."Id", t."IsCompleted", t."StartTime", t."UserAnswersJson"
+    FROM "TestSessions" AS t
+    WHERE t."Id" = @__sessionId_0
+    LIMIT 1
+) AS t0
+LEFT JOIN (
+    SELECT t2."Id", t2."OrderIndex", t2."QuestionId", t2."SessionId", q."Id" AS "Id0", q."Category", q."CorrectOptionIndex", q."DifficultyLevel", q."Options", q."Text"
+    FROM "TestSessionQuestions" AS t2
+    INNER JOIN "Questions" AS q ON t2."QuestionId" = q."Id"
+) AS t1 ON t0."Id" = t1."SessionId"
+ORDER BY t0."Id", t1."Id"
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32), @p3='?' (DbType = Guid), @p4='?' (DbType = Object), @p5='?' (DbType = Int32), @p7='?' (DbType = Guid), @p6='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "TestResults" ("Id", "CompletedAt", "CorrectAnswers", "SessionId", "TimeTaken", "TotalQuestions")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+UPDATE "TestSessions" SET "IsCompleted" = @p6
+WHERE "Id" = @p7;
+2025-05-09 13:53:48 +03:00 [INF] (Emata.API.Services.TestSessionService) Test completed for session c924afc9-0f87-4be2-92b0-9c8436937306. Score: 75.00%, Time: 00:00:44.4268700
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestResultDTO' as Json.
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/c924afc9-0f87-4be2-92b0-9c8436937306 - 200 null application/json; charset=utf-8 43.8841ms
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/c924afc9-0f87-4be2-92b0-9c8436937306 - null 0
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsService) CORS policy execution successful.
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:53:48 +03:00 [INF] (Emata.API.Endpoints.SessionEndPoint) Finishing test session: c924afc9-0f87-4be2-92b0-9c8436937306
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand (2ms) [Parameters=[@__sessionId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."CompletedAt", t."CorrectAnswers", t."SessionId", t."TimeTaken", t."TotalQuestions", t0."Id", t0."IsCompleted", t0."StartTime", t0."UserAnswersJson"
+FROM "TestResults" AS t
+INNER JOIN "TestSessions" AS t0 ON t."SessionId" = t0."Id"
+WHERE t."SessionId" = @__sessionId_0
+LIMIT 1
+2025-05-09 13:53:48 +03:00 [INF] (Emata.API.Services.TestSessionService) Session c924afc9-0f87-4be2-92b0-9c8436937306 already completed. Score: 75.00%
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Setting HTTP status code 200.
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Http.Result.OkObjectResult) Writing value of type 'TestResultDTO' as Json.
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint 'HTTP: POST /api/session/finish-test-session/{sessionId}'
+2025-05-09 13:53:48 +03:00 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/2 POST https://localhost:7170/api/Session/finish-test-session/c924afc9-0f87-4be2-92b0-9c8436937306 - 200 null application/json; charset=utf-8 12.6631ms

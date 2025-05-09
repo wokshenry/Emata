@@ -1,0 +1,21 @@
+﻿@page "/"
+@inject NavigationManager NavManager
+
+<PageTitle>Home</PageTitle>
+
+<div class="container mt-5">
+    <div class="jumbotron">
+        <h1 class="display-4">Aptitude Test</h1>
+        <p class="lead">Test your knowledge with our timed aptitude test</p>
+        <hr class="my-4">
+        <p>You will have 30 minutes to answer 3 questions. The test will automatically end when the time is up.</p>
+        <button class="btn btn-primary btn-lg" @onclick="StartTest">Start Test</button>
+    </div>
+</div>
+
+@code {
+    private void StartTest()
+    {
+        NavManager.NavigateTo("/test");
+    }
+}
