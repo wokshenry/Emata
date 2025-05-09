@@ -1,7 +1,3 @@
-# EMATA Aptitudde Test
-Application that conducts aptitudde  test on behalf of emata
-
-
 # EMATA Aptitude Test App
 
 ## Introduction
