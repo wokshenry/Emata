@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\system\\core\\Emata\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\pages\\activetestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\pages\\activetestpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\services\\itestsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\services\\itestsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\services\\isessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -141,37 +141,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Emata.UI\\Layout\\NavMenu.razor",
               "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Emata.UI\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-09T12:18:35.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ActiveTestPage.razor",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\ActiveTestPage.razor",
               "RelativeDocumentMoniker": "Emata.UI\\Pages\\ActiveTestPage.razor",
               "ToolTip": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\ActiveTestPage.razor",
               "RelativeToolTip": "Emata.UI\\Pages\\ActiveTestPage.razor",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFkAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAFcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-09T11:26:51.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TestPage.razor",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\TestPage.razor",
               "RelativeDocumentMoniker": "Emata.UI\\Pages\\TestPage.razor",
@@ -223,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ResultPage.razor",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\ResultPage.razor",
               "RelativeDocumentMoniker": "Emata.UI\\Pages\\ResultPage.razor",
@@ -275,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SessionEndPoint.cs",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Endpoints\\SessionEndPoint.cs",
               "RelativeDocumentMoniker": "Emata.API\\Endpoints\\SessionEndPoint.cs",
@@ -301,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "TestSessionSummaryDTO.cs",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.SHARED\\ViewModels\\TestSessionSummaryDTO.cs",
               "RelativeDocumentMoniker": "Emata.SHARED\\ViewModels\\TestSessionSummaryDTO.cs",
@@ -444,7 +444,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ITestSessionService.cs",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Services\\ITestSessionService.cs",
               "RelativeDocumentMoniker": "Emata.API\\Services\\ITestSessionService.cs",
@@ -483,7 +483,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "TestSession.cs",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Models\\TestSession.cs",
               "RelativeDocumentMoniker": "Emata.API\\Models\\TestSession.cs",

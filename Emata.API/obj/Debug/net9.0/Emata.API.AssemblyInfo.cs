@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Emata.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c409abafc2b9543d7f4cf8e3397ea6db53028cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Emata.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Emata.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

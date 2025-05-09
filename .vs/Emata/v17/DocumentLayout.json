@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\system\\core\\Emata\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\endpoints\\sessionendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\endpoints\\sessionendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,16 +19,12 @@
       "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\pages\\testpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\endpoints\\sessionendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\endpoints\\sessionendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|d:\\system\\core\\emata\\emata.ui\\pages\\resultpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\pages\\resultpage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testsessionsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\testsessionsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testsessionsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|solutionrelative:emata.shared\\viewmodels\\testsessionsummarydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\models\\testsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,8 +47,8 @@
       "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\extensions\\sessionmappingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\testresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|solutionrelative:emata.shared\\viewmodels\\testresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\configuration\\entityconfiguration\\testsessionquestionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,8 +71,8 @@
       "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\wwwroot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\testsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\testsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|solutionrelative:emata.shared\\viewmodels\\testsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\models\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,8 +83,8 @@
       "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\models\\testsessionquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|solutionrelative:emata.shared\\viewmodels\\questiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\options\\urls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,12 +99,12 @@
       "RelativeMoniker": "D:0:0:{FAD61148-5EAA-4053-BBBB-A358C7EF0B1B}|Emata.UI\\Emata.UI.csproj|solutionrelative:emata.ui\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\answersubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\viewmodels\\answersubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|d:\\system\\core\\emata\\emata.shared\\viewmodels\\answersubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|solutionrelative:emata.shared\\viewmodels\\answersubmitdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\shared\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\shared\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|d:\\system\\core\\emata\\emata.shared\\shared\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|solutionrelative:emata.shared\\shared\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|d:\\system\\core\\emata\\emata.api\\configuration\\entityconfiguration\\testresultconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,8 +123,8 @@
       "RelativeMoniker": "D:0:0:{2B51F38C-8A31-4A2E-8608-729723D3FF32}|Emata.API\\Emata.API.csproj|solutionrelative:emata.api\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|d:\\system\\core\\emata\\emata.shared\\shared\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.SHARED.csproj|solutionrelative:emata.shared\\shared\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|d:\\system\\core\\emata\\emata.shared\\shared\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F953658A-3A6E-4D96-A516-77129429EFB5}|Emata.SHARED\\Emata.Shared.csproj|solutionrelative:emata.shared\\shared\\enums\\difficultylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hwokwera\\AppData\\Roaming\\Microsoft\\UserSecrets\\2d8e07c0-7346-4534-9f8c-c02491437f57\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -141,11 +141,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "Emata.UI\\Layout\\NavMenu.razor",
@@ -158,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ActiveTestPage.razor",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\ActiveTestPage.razor",
               "RelativeDocumentMoniker": "Emata.UI\\Pages\\ActiveTestPage.razor",
@@ -166,12 +166,11 @@
               "RelativeToolTip": "Emata.UI\\Pages\\ActiveTestPage.razor",
               "ViewState": "AgIAAE8AAAAAAAAAAAAAAFcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T11:26:51.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T11:26:51.737Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TestPage.razor",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.UI\\Pages\\TestPage.razor",
               "RelativeDocumentMoniker": "Emata.UI\\Pages\\TestPage.razor",
@@ -179,8 +178,7 @@
               "RelativeToolTip": "Emata.UI\\Pages\\TestPage.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:15:17.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:15:17.997Z"
             },
             {
               "$type": "Document",
@@ -192,8 +190,7 @@
               "RelativeToolTip": "Emata.SHARED\\ViewModels\\TestResultDTO.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:52:37.974Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T09:52:37.974Z"
             },
             {
               "$type": "Document",
@@ -205,8 +202,7 @@
               "RelativeToolTip": "Emata.API\\Options\\Urls.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T09:05:47.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T09:05:47.305Z"
             },
             {
               "$type": "Document",
@@ -218,8 +214,7 @@
               "RelativeToolTip": "Emata.UI\\wwwroot\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-09T08:27:21.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:27:21.664Z"
             },
             {
               "$type": "Document",
@@ -231,8 +226,7 @@
               "RelativeToolTip": "Emata.UI\\Pages\\ResultPage.razor",
               "ViewState": "AgIAAEAAAAAAAAAAAAAAAEYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:25:06.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:25:06.215Z"
             },
             {
               "$type": "Document",
@@ -244,8 +238,7 @@
               "RelativeToolTip": "Emata.UI\\Pages\\Home.razor",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-09T08:13:45.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:13:45.726Z"
             },
             {
               "$type": "Document",
@@ -257,8 +250,7 @@
               "RelativeToolTip": "Emata.UI\\Program.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAcwBAAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:10:46.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:10:46.382Z"
             },
             {
               "$type": "Document",
@@ -270,18 +262,17 @@
               "RelativeToolTip": "Emata.UI\\Services\\ISessionService.cs",
               "ViewState": "AgIAAGkAAAAAAAAAAAAIwHAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:00:10.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T08:00:10.849Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "SessionEndPoint.cs",
               "DocumentMoniker": "D:\\system\\core\\Emata\\Emata.API\\Endpoints\\SessionEndPoint.cs",
               "RelativeDocumentMoniker": "Emata.API\\Endpoints\\SessionEndPoint.cs",
               "ToolTip": "D:\\system\\core\\Emata\\Emata.API\\Endpoints\\SessionEndPoint.cs",
               "RelativeToolTip": "Emata.API\\Endpoints\\SessionEndPoint.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAwwHMAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAAAIIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T14:58:07.397Z",
               "EditorCaption": ""
@@ -296,8 +287,7 @@
               "RelativeToolTip": "Emata.API\\Extensions\\SessionMappingExtension.cs",
               "ViewState": "AgIAABUAAAAAAAAAAADwvxgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T15:10:29.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T15:10:29.619Z"
             },
             {
               "$type": "Document",
@@ -309,8 +299,7 @@
               "RelativeToolTip": "Emata.SHARED\\ViewModels\\TestSessionSummaryDTO.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T15:06:09.162Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T15:06:09.162Z"
             },
             {
               "$type": "Document",
@@ -322,8 +311,7 @@
               "RelativeToolTip": "Emata.SHARED\\ViewModels\\AnswerSubmitDTO.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAjwAsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T15:04:55.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T15:04:55.932Z"
             },
             {
               "$type": "Document",
@@ -335,8 +323,7 @@
               "RelativeToolTip": "Emata.SHARED\\ViewModels\\QuestionDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T15:03:45.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T15:03:45.824Z"
             },
             {
               "$type": "Document",
@@ -348,8 +335,7 @@
               "RelativeToolTip": "Emata.SHARED\\ViewModels\\TestSessionDTO.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwA0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T15:03:15.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T15:03:15.811Z"
             },
             {
               "$type": "Document",
@@ -361,8 +347,7 @@
               "RelativeToolTip": "Emata.API\\Configuration\\EntityConfiguration\\TestResultConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:32:34.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T14:32:34.428Z"
             },
             {
               "$type": "Document",
@@ -374,8 +359,7 @@
               "RelativeToolTip": "Emata.API\\Configuration\\EntityConfiguration\\TestSessionQuestionConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:28:30.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T14:28:30.578Z"
             },
             {
               "$type": "Document",
@@ -387,8 +371,7 @@
               "RelativeToolTip": "Emata.API\\Configuration\\EntityConfiguration\\TestSessionConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:27:20.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T14:27:20.616Z"
             },
             {
               "$type": "Document",
@@ -400,8 +383,7 @@
               "RelativeToolTip": "Emata.API\\Models\\TestSessionQuestion.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T14:21:30.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T14:21:30.153Z"
             },
             {
               "$type": "Document",
@@ -413,8 +395,7 @@
               "RelativeToolTip": "Emata.API\\Configuration\\EntityConfiguration\\QuestionConfiguration.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:52:54.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T11:52:54.952Z"
             },
             {
               "$type": "Document",
@@ -426,8 +407,7 @@
               "RelativeToolTip": "Emata.SHARED\\Shared\\Enums\\DifficultyLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:42:11.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T11:42:11.701Z"
             },
             {
               "$type": "Document",
@@ -439,8 +419,7 @@
               "RelativeToolTip": "Emata.SHARED\\Shared\\Constants.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:38:24.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T11:38:24.082Z"
             },
             {
               "$type": "Document",
@@ -452,8 +431,7 @@
               "RelativeToolTip": "Emata.API\\Services\\ITestSessionService.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAAAKoAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:08:20.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T11:08:20.149Z"
             },
             {
               "$type": "Document",
@@ -465,8 +443,7 @@
               "RelativeToolTip": "Emata.API\\Services\\IQuestionService.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAcwCYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T11:01:00.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T11:01:00.079Z"
             },
             {
               "$type": "Document",
@@ -478,8 +455,7 @@
               "RelativeToolTip": "Emata.API\\Models\\TestResult.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T10:57:38.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T10:57:38.408Z"
             },
             {
               "$type": "Document",
@@ -491,8 +467,7 @@
               "RelativeToolTip": "Emata.API\\Models\\TestSession.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T10:56:14.023Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T10:56:14.023Z"
             },
             {
               "$type": "Document",
@@ -504,8 +479,7 @@
               "RelativeToolTip": "Emata.API\\Models\\Question.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T10:55:14.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T10:55:14.859Z"
             },
             {
               "$type": "Document",
@@ -515,8 +489,7 @@
               "ToolTip": "C:\\Users\\hwokwera\\AppData\\Roaming\\Microsoft\\UserSecrets\\2d8e07c0-7346-4534-9f8c-c02491437f57\\secrets.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-08T10:43:49.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T10:43:49.648Z"
             },
             {
               "$type": "Document",
@@ -528,8 +501,7 @@
               "RelativeToolTip": "Emata.API\\appsettings.json",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-08T10:41:20.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T10:41:20.705Z"
             },
             {
               "$type": "Document",
@@ -541,8 +513,7 @@
               "RelativeToolTip": "Emata.API\\Context\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T06:50:49.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T06:50:49.198Z"
             },
             {
               "$type": "Document",
@@ -554,8 +525,7 @@
               "RelativeToolTip": "Emata.API\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-08T06:37:39.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T06:37:39.222Z"
             },
             {
               "$type": "Document",
@@ -567,8 +537,7 @@
               "RelativeToolTip": "Emata.API\\Program.cs",
               "ViewState": "AgIAADsAAAAAAAAAAAAUwEQAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T06:36:57.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T06:36:57.565Z"
             }
           ]
         }

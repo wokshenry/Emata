@@ -28,7 +28,6 @@ namespace Emata.API.Endpoints
                 return TypedResults.Ok(session.ToTestSessionDTO());
 
             })
-                //.RequireAuthorization() //todo, consider 
             .WithTags(Tag);
 
             //get get-session
@@ -48,7 +47,6 @@ namespace Emata.API.Endpoints
                 return TypedResults.Ok(session.ToTestSessionDTO());
 
             })
-            //.RequireAuthorization() //todo, consider 
             .WithTags(Tag);
 
             //submit-answer
@@ -72,7 +70,6 @@ namespace Emata.API.Endpoints
                 return TypedResults.Ok();
 
             })
-                //.RequireAuthorization()
             .WithTags(Tag);
 
             //finish-test-session
@@ -96,7 +93,6 @@ namespace Emata.API.Endpoints
                     return TypedResults.Problem(ex.Message, statusCode: StatusCodes.Status400BadRequest);
                 }
             })
-            //.RequireAuthorization()
             .WithTags(Tag);
 
             //get get-active-session
@@ -118,7 +114,6 @@ namespace Emata.API.Endpoints
 
                 return TypedResults.Ok(summaries);
             })
-            //.RequireAuthorization() //todo, consider 
             .WithTags(Tag);
 
             //cleanup-expired
@@ -132,7 +127,6 @@ namespace Emata.API.Endpoints
                 await _testSessionService.CleanupExpiredSessionsAsync();
                 return TypedResults.Ok();
             })
-            //.RequireAuthorization()
             .WithTags(Tag);
         }
     }
