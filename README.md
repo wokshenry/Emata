@@ -8,6 +8,12 @@ This application doesnt not have access controll and the test are not tagged to 
 
 The app is built using Blazor WebAssembly for the front end and .Net Core for the back end logic. Data is persisted using PostgreSQL database using Entity Framework Core.
 
+### Problem Solved
+
+The client needed to automate the onboarding process by adding an aptitude test module into the Human Resource system, they also requested that the system shuffles the questions so as the candidates are not faced with the same questions avoiding answer sharing between the candidates even if they are seated next to each other.
+
+This app demonstrates how this problem was resolved. In the actual system, applicants create accounts in the system and they tests sessions are tagged to their User Id and each applicant can only see their sessions.
+
 ## Project Structure
 The project is setup with the following projects:
 
