@@ -4,6 +4,8 @@
 
 This is an aptitude test app, which is used to generate different aptitude test questions for each new test sessions started. It also has a module where you can view and resume any session that was incomplete and its session time is still valid.
 
+This application doesnt not have access controll and the test are not tagged to any user, It is for demonstration purposes only.
+
 The app is built using Blazor WebAssembly for the front end and .Net Core for the back end logic. Data is persisted using PostgreSQL database using Entity Framework Core.
 
 ## Project Structure
