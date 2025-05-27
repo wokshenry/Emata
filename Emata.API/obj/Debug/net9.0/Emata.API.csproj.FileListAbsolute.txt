@@ -19,13 +19,6 @@ D:\system\core\Emata\Emata.API\obj\Debug\net9.0\scopedcss\bundle\Emata.API.style
 D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets.build.json
 D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets.development.json
 D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets.build.endpoints.json
-D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets\msbuild.Emata.API.Microsoft.AspNetCore.StaticWebAssets.props
-D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets\msbuild.Emata.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets\msbuild.build.Emata.API.props
-D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.Emata.API.props
-D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.Emata.API.props
-D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets.pack.json
-D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 D:\system\core\Emata\Emata.API\obj\Debug\net9.0\Emata.API.csproj.Up2Date
 D:\system\core\Emata\Emata.API\obj\Debug\net9.0\Emata.API.dll
 D:\system\core\Emata\Emata.API\obj\Debug\net9.0\refint\Emata.API.dll
@@ -129,3 +122,5 @@ D:\system\core\Emata\Emata.API\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.W
 D:\system\core\Emata\Emata.API\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\system\core\Emata\Emata.API\bin\Debug\net9.0\Emata.SHARED.dll
 D:\system\core\Emata\Emata.API\bin\Debug\net9.0\Emata.SHARED.pdb
+D:\system\core\Emata\Emata.API\obj\Debug\net9.0\Emata.API.sourcelink.json
+D:\system\core\Emata\Emata.API\obj\Debug\net9.0\staticwebassets.build.json.cache

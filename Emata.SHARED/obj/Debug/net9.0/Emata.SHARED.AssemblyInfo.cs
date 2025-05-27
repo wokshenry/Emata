@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Emata.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c409abafc2b9543d7f4cf8e3397ea6db53028cf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7fe7c4c7f4d31d25f38bee53435f37580cd6f8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Emata.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Emata.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

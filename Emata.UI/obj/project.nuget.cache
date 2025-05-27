@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8K9NERooviI=",
+  "dgSpecHash": "+OT+92sp16g=",
   "success": true,
   "projectFilePath": "D:\\system\\core\\Emata\\Emata.UI\\Emata.UI.csproj",
   "expectedPackageFiles": [
@@ -28,8 +28,8 @@
     "C:\\Users\\hwokwera\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.4\\microsoft.extensions.primitives.9.0.4.nupkg.sha512",
     "C:\\Users\\hwokwera\\.nuget\\packages\\microsoft.jsinterop\\9.0.4\\microsoft.jsinterop.9.0.4.nupkg.sha512",
     "C:\\Users\\hwokwera\\.nuget\\packages\\microsoft.jsinterop.webassembly\\9.0.4\\microsoft.jsinterop.webassembly.9.0.4.nupkg.sha512",
-    "C:\\Users\\hwokwera\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.4\\microsoft.net.illink.tasks.9.0.4.nupkg.sha512",
-    "C:\\Users\\hwokwera\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.4\\microsoft.net.sdk.webassembly.pack.9.0.4.nupkg.sha512"
+    "C:\\Users\\hwokwera\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.5\\microsoft.net.illink.tasks.9.0.5.nupkg.sha512",
+    "C:\\Users\\hwokwera\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\9.0.5\\microsoft.net.sdk.webassembly.pack.9.0.5.nupkg.sha512"
   ],
   "logs": []
 }

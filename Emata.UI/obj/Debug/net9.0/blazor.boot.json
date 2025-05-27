@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Emata.UI",
   "resources": {
-    "hash": "sha256-tfd4PeNNFS1h1Egs86wxapc7WCWX3/3vqumy53xxxcM=",
+    "hash": "sha256-QDViIakx1cPC9cvsWrSJ+BQl4r5XvnMRetZSHw1SOLQ=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.gf26ou9jj9.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.v3fd2n5hlr.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -195,25 +195,25 @@
       "netstandard.d82br99ghv.wasm": "netstandard.wasm",
       "System.Private.CoreLib.wejp19zmu1.wasm": "System.Private.CoreLib.wasm",
       "dotnet.js": "dotnet.js",
-      "dotnet.native.hvg7u8bimp.js": "dotnet.native.js",
-      "dotnet.native.3c4wvb350q.wasm": "dotnet.native.wasm",
-      "dotnet.runtime.cymp1amu5g.js": "dotnet.runtime.js",
+      "dotnet.native.uhsveqo9bs.js": "dotnet.native.js",
+      "dotnet.native.swgexbmoy7.wasm": "dotnet.native.wasm",
+      "dotnet.runtime.5nhp1wfg9b.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Emata.Shared.631uaii7ju.wasm": "Emata.Shared.wasm",
-      "Emata.Shared.hqxcn625vl.pdb": "Emata.Shared.pdb",
-      "Emata.UI.rzogv21yd4.wasm": "Emata.UI.wasm",
-      "Emata.UI.i6ebolnstm.pdb": "Emata.UI.pdb"
+      "Emata.Shared.dnbujmuw6g.wasm": "Emata.Shared.wasm",
+      "Emata.Shared.maj433po2r.pdb": "Emata.Shared.pdb",
+      "Emata.UI.ju4uildkqq.wasm": "Emata.UI.wasm",
+      "Emata.UI.vegkby3jtc.pdb": "Emata.UI.pdb"
     },
     "jsModuleNative": {
-      "dotnet.native.hvg7u8bimp.js": "sha256-LX9rFEWGVxhkOkAVPG0w5RxPwzPBlEUz6dQNjWS7M+M="
+      "dotnet.native.uhsveqo9bs.js": "sha256-/ifJokfQvXKw1hEziCkYR9SOJIKSdGG/UKw5gbLWrj0="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.cymp1amu5g.js": "sha256-dCmS9Zx4egtLYSUgTI3R6gMS+Yg8MkzxW1CgEMJKAEw="
+      "dotnet.runtime.5nhp1wfg9b.js": "sha256-kTZbe5ESp04VMT22TnjRmFj88VbtEcohZfCm4og/IDw="
     },
     "wasmNative": {
-      "dotnet.native.3c4wvb350q.wasm": "sha256-89jyB8DlCnV2BPMV477jOe1Sm0WXwVf8RuoSPsj4Ym8="
+      "dotnet.native.swgexbmoy7.wasm": "sha256-HHqsNtcX76Ik012KVAobmCLooIZ2znhTFCqfijzEdi0="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -414,12 +414,12 @@
       "WindowsBase.5lai2eowco.wasm": "sha256-GcDi5293y2A7oSiFYTbBTUe0d+ISbvgeel4ZNd8KkPM=",
       "mscorlib.wzkfrp7u5k.wasm": "sha256-9PjsU0gaxxz5Vyw++p9DeYUWLsaXbaMS2RbX6wmTUmk=",
       "netstandard.d82br99ghv.wasm": "sha256-DS8keXxU4eQpa1kIoiFxOA2Ii2g9hoNWSaVi8F8AnIE=",
-      "Emata.Shared.631uaii7ju.wasm": "sha256-AhMTpykZbppvm73yl4Uno825dJdhfHKBJ+pt/8Ju0Z8=",
-      "Emata.UI.rzogv21yd4.wasm": "sha256-ecbz2D6a9m/VIoDSe/6VQXMEcSqL++tGcdZD8vb16hA="
+      "Emata.Shared.dnbujmuw6g.wasm": "sha256-h363BvdhvOKUV20YMfOGYd0kJNQgPTv7eW6DmKfgX8E=",
+      "Emata.UI.ju4uildkqq.wasm": "sha256-9fVqFR8sQ1TJsLN1y1of378+OcXAL4td2m37Q46whoI="
     },
     "pdb": {
-      "Emata.Shared.hqxcn625vl.pdb": "sha256-yeT+RP17opFlPgYQ/D11dtM77jg/14apXJYsIuyBuOo=",
-      "Emata.UI.i6ebolnstm.pdb": "sha256-dueyVl/kyRKFJX+Knvq4qe9smmQtlr8n9+FcvVRCToI="
+      "Emata.Shared.maj433po2r.pdb": "sha256-UmaT/GawPhmo5RDkpRJig+SZKuvEayY6v9Pr7M8mdLA=",
+      "Emata.UI.vegkby3jtc.pdb": "sha256-6cyUx7ysx/GBUMXN6dEv80wzwTqRkGojXNL1MRkVrBU="
     }
   },
   "cacheBootResources": true,

@@ -9,3 +9,4 @@ D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.SHARED.dll
 D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\refint\Emata.SHARED.dll
 D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.SHARED.pdb
 D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\ref\Emata.SHARED.dll
+D:\system\core\Emata\Emata.SHARED\obj\Debug\net9.0\Emata.Shared.sourcelink.json

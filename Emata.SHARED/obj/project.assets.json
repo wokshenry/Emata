@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\system\\core\\Emata\\Emata.SHARED\\Emata.SHARED.csproj",
-      "projectName": "Emata.SHARED",
-      "projectPath": "D:\\system\\core\\Emata\\Emata.SHARED\\Emata.SHARED.csproj",
+      "projectUniqueName": "D:\\system\\core\\Emata\\Emata.SHARED\\Emata.Shared.csproj",
+      "projectName": "Emata.Shared",
+      "projectPath": "D:\\system\\core\\Emata\\Emata.SHARED\\Emata.Shared.csproj",
       "packagesPath": "C:\\Users\\hwokwera\\.nuget\\packages\\",
       "outputPath": "D:\\system\\core\\Emata\\Emata.SHARED\\obj\\",
       "projectStyle": "PackageReference",
@@ -56,7 +56,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -77,7 +77,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

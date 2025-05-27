@@ -11,7 +11,7 @@ namespace Emata.API.Extensions
                 Id = session.Id,
                 StartTime = session.StartTime,
                 EndTime = session.EndTime,
-                Questions = session.SessionQuestions.OrderBy(sq => sq.OrderIndex)
+                Questions = session.SessionQuestions?.OrderBy(sq => sq.OrderIndex)
                 .Select(sq => sq.Question).ToList().Select(q => new QuestionDTO
                 {
                     Id = q.Id,
